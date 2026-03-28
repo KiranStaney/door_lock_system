@@ -2,8 +2,8 @@
 #include "lcd_fun.c"
 #include <string.h>
 
-#define ROW_MASK 0xF0
-#define COL_MASK 0x0F
+#define ROW_MASK 0xF0 //rown - input
+#define COL_MASK 0x0F //column output
 #define ENTER_KEY '*'
 
 void delay_ms(unsigned int ms);
